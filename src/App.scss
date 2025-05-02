@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  height: 100dvh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.div.selection {
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.ul.list {
+  width: 30%;
+  list-style: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  font-size: 16px;
+  color: rgb(132, 181, 223);
+  font-weight: 600;
+  column-gap: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #f1f1f1;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #888888a2;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 0;
+}
+.scrollable {
+  overflow: auto;
+}
